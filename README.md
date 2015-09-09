@@ -1,5 +1,5 @@
 Parses a json file where every entry represents a reddit comment.
-Store it in a mysql database with three tables: threads, users, posts.
+Store it in a mysql database with three tables: threads, users, posts. 
 
  - parser_reddit.py: main script
  - dbmanager.py: functions to interact with the MySQL database
@@ -8,8 +8,8 @@ Store it in a mysql database with three tables: threads, users, posts.
    
 ### Instructions
 
-Download a reddit json file where every json entry represents a comment, such as:
-https://www.reddit.com/r/datasets/comments/3bxlg7/i_have_every_publicly_available_reddit_comment/
+Download a reddit json file where every json entry represents a comment. [Jason Baumgartner](https://pushshift.io) maintains a repository of monthly dumps:
+http://pan.whatbox.ca:36975/reddit/comments/monthly/
 
 Copy the file in `/output/` and modify this line in `parser_reddit.py` accordingly:
 
