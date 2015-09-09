@@ -11,6 +11,10 @@ Store it in a mysql database with three tables: threads, users, posts.
 Download a reddit json file where every json entry represents a comment, such as:
 https://www.reddit.com/r/datasets/comments/3bxlg7/i_have_every_publicly_available_reddit_comment/
 
+Copy the file in `/output/` and modify this line in `parser_reddit.py` accordingly:
+
+    input_file = join(filepath, "input", "RC_2015-01", "reddit")
+
 Every line should be contain at least the following fields:
 
     {"subreddit":"AskMen",
