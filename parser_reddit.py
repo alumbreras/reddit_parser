@@ -25,11 +25,7 @@ def parse_reddit():
         # Every line is a post        
         nforums=0
         for i, line in enumerate(f):
-             
-
-            if i > 0.25*nposts: 
-                break
-            
+                         
             user= "anonymous"
             date = None
             parent = None
