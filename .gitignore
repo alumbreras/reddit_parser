@@ -6,9 +6,6 @@
 .project
 .ipynb_checkpoints/
 *.metadata/
-*outputs/
-*out/
-*input/
 src_cpp/
 datasets/
 *.csv
