@@ -124,7 +124,8 @@ def parse_reddit():
         print "N posts final:", len(db.get_all_posts().fetchall())            
                   
     
-        # Set date of root
+        # Set (fake) date of root
+        # to one second before the first post
         for thread in threads:
             root = thread['root']
             posts = db.get_posts_in_thread(root).fetchall()
