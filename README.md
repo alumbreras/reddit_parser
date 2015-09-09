@@ -30,4 +30,8 @@ Then run:
 and go to sleep. Your database will be in output/ in the morning. (about 8h for a 36GB file)
 
 ### Notes
-The parser was made to parse the dataset linked above. In that dataset, the post that opened the thread (called submission) is not included. We know, for instance, that parent of comment `t1_cnasd8fx` is the link `t3_hfgt8f` (t3... are the submissions), but there is no entry associared to `t3_hfgt8f`. The script creates an empty post entry in the database with id `t3_hfgt8f`. It is necessary if we want to use the database to study the structure of the conversation, since `t3_...` are the roots of the conversation trees.
+The parser was made to parse the dataset linked above. In that dataset, the post that opened the thread (called submission) is not included. 
+
+Imagine, for instance, that the parent of comment `t1_cnasd8fx` is the link `t3_hfgt8f` (t3... are the submissions), but there is no entry associared to `t3_hfgt8f`. The script creates an empty post entry in the database with id `t3_hfgt8f`. 
+
+This is necessary if we want to use the database to study the structure of the conversation, since `t3_...` are the roots of the conversation trees.
