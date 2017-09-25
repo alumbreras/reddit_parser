@@ -9,7 +9,7 @@ Store it in a mysql database with three tables: threads, users, posts.
 ### Instructions
 
 Download a reddit json file where every json entry represents a comment. [Jason Baumgartner](https://pushshift.io) maintains a repository of monthly dumps:
-http://pan.whatbox.ca:36975/reddit/comments/monthly/
+http://files.pushshift.io/reddit/comments
 
 Copy the file in `/output/` and modify this line in `parser_reddit.py` accordingly:
 
