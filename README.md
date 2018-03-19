@@ -1,8 +1,8 @@
 Parses a json file where every entry represents a reddit comment.
-Store it in a mysql database with three tables: threads, users, posts. 
+Store it in a SQLite database with three tables: threads, users, posts. 
 
  - parser_reddit.py: main script
- - dbmanager.py: functions to interact with the MySQL database
+ - dbmanager.py: functions to interact with the SQLite database
  - input/:  copy the dataset here.
  - output/: database containing the parsed dataset.
    
